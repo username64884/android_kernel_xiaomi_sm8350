@@ -18,6 +18,8 @@ jobs:
           kernel-url: https://github.com/username64884/android_kernel_xiaomi_sm8350.git
           kernel-dir: msm-5.4
           kernel-branch: lineage-21
+          vendor : true
+          vendor-url : https://github.com/LineageOS/android_device_xiaomi_renoir
           config: gki_defconfig
           arch: arm64
           aosp-gcc: true
